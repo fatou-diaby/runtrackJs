@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tri de Tableau de Nombres</title>
+</head>
+<body>
+    <h2>Tri de Tableau de Nombres</h2>
+    <label for="numbersInput">Entrez les nombres séparés par des virgules : </label>
+    <input type="text" id="numbersInput" name="numbersInput">
+    <br>
+    <label for="orderSelect">Choisissez l'ordre de tri : </label>
+    <select id="orderSelect" name="orderSelect">
+        <option value="asc">Ascendant</option>
+        <option value="desc">Décroissant</option>
+    </select>
+    <br>
+    <button onclick="performSorting()">Effectuer le tri</button>
+    <p id="result"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
